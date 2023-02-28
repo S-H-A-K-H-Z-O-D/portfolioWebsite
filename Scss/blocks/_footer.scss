@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #33323D;
+
+    &__list{
+        list-style: none;
+        display: flex;
+        padding: 10px 20px;
+
+        &__item >a{
+            @include pageTitles(white)
+        }
+    }
+
+    &__icons{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+
+        & >a{
+            padding-left: 10px;
+        }
+    }
+}

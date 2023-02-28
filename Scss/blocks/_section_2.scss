@@ -1,0 +1,21 @@
+.section2{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+    & >h1{
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700;
+    }
+
+    &__underline{
+        border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+        width: 500px;
+        height: 10px;
+    }
+
+    & >a{
+        @include btn;
+    }
+}
