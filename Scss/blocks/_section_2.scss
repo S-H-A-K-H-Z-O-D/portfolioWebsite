@@ -19,3 +19,17 @@
         @include btn;
     }
 }
+
+@media only screen and (max-width: 781px){
+
+    .section2{
+        
+        & >h1{
+            width: 300px;
+        }
+    
+        &__underline{
+            width: 200px;
+        }
+    }
+}
